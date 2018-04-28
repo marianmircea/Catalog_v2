@@ -1,5 +1,5 @@
 <?php
-    echo "Pagina principala ...";
+    echo "Pagina principala / welcome ...";
 
     require 'config/path.php';
     require 'config/view.php';
