@@ -1,5 +1,5 @@
 <?php
-    echo "Pagina principala ... dupa upload pe GitHub ...";
+    echo "Pagina principala ...";
 
     require 'config/path.php';
     require 'config/view.php';
