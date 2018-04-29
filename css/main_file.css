@@ -1,0 +1,39 @@
+@import url("css_reset.css");
+
+body {
+    /*background: #adebad;*/
+    /*padding: 20px;*/
+}
+
+#header {
+	padding: 8px;
+	background: #00ccff;
+	text-align: right;
+	/*float: left;*/
+}
+
+#content {
+    padding: 20px;
+    background: white;
+}
+
+#footer {
+    padding: 20px;
+    background: #4080bf;
+	color: #ffffff;
+}
+#catalog_header {
+    text-align: center;
+    background-color: #00ccff;
+    overflow: auto;
+}
+ul#header_links {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}

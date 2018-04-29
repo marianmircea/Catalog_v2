@@ -1,9 +1,6 @@
 <?php
-    echo "Pagina principala / welcome .....";
-
-    require 'config/path.php';
-    require 'config/view.php';
-
-    require 'view/header.php';
-    require 'view/footer.php';
-    //$app = new home_page();
+		define('URL', __DIR__.'/'); //mere in cod PHP ...
+		define('URL2', '//localhost/Catalog_v2/'); //mere in cod HTML ...
+		require 'config/autoloader.php';
+		
+		$application = new bootsite();
