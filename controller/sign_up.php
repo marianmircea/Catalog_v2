@@ -1,9 +1,9 @@
 <?php
-	class login extends viewcontroller {
+	class signup extends viewcontroller {
 		function __construct () {
 			parent::__construct();
 		}
 		function index() {
-			$this -> view -> render('login');
+			$this -> view -> render('sign_up');
 		}
 	}

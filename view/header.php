@@ -10,8 +10,8 @@
 		<div id = "header">
 			<ul id = "header_links">
 				<li><a href="<?php echo URL2; ?>index.php">Home</a></li>
-				<li><a href="<?php echo URL2; ?>controller/login.php">Login</a></li>
-				<li><a href="<?php echo URL2; ?>view/under_con/index.php">Sign up</a></li>
+				<li><a href="<?php echo URL2; ?>index.php?val=1">Login</a></li>
+				<li><a href="<?php echo URL2; ?>index.php?val=2">Sign up</a></li>
 				<li><a href="<?php echo URL2; ?>view/under_con/index.php">About us</a></li>
 			</ul>
 		</div>

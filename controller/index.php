@@ -5,5 +5,5 @@
 		}
 		function index() {
 			$this -> view -> render('index');
-		}	
+		}
 	}

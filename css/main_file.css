@@ -6,21 +6,21 @@ body {
 }
 
 #header {
-	padding: 8px;
+	padding: 5px;
 	background: #00ccff;
 	text-align: right;
-	/*float: left;*/
 }
 
 #content {
-    padding: 20px;
-    background: white;
+	padding: 20px;
+	text-align: center;
 }
 
 #footer {
-    padding: 20px;
-    background: #4080bf;
+	padding: 5px;
+	background: #4080bf;
 	color: #ffffff;
+	text-align: center;
 }
 #catalog_header {
     text-align: center;
@@ -36,4 +36,14 @@ li {
 }
 a {
 	text-decoration: none;
+}
+#login_box {
+	width: 300px;
+	background-color: #0066cc;
+	color: #ffffff;
+	margin: auto;
+	padding-left: 10px;
+	overflow: auto;
+	margin-bottom: 10px;
+	text-align: left;
 }
