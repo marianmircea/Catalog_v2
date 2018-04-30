@@ -32,12 +32,9 @@
 				header ('refresh:1; url=../index.php?val=1');
 				exit();
 				}
-			
-			//print_r($test);
-			echo $test[0]."  ".$test[1];
-			//Session::init();
-			//var_dump($test);
-			//header ('refresh:1; url=../controllers/logged_in.php');
+			$tip = $test[0];
+			$id = $test[1];
+			header ('location: ../controller/bootuser.php?tip='.$tip.'&id='.$id);
 		}
 	}
 	$result = new check();
