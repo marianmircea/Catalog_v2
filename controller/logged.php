@@ -1,10 +1,10 @@
 <?php
 	require 'view_controller.php';
-	class logged extends viewcontroller {
+	class Logged extends Viewcontroller {
 		function __construct () {
 			parent::__construct();
 		}
 		function index() {
-			$this -> view -> render('logged');
+			$this -> View -> render('logged');
 		}
 	}

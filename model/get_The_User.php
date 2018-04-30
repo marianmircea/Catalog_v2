@@ -1,6 +1,6 @@
 <?php
 	require 'connect_db.php';
-	class users extends dbh {
+	class Users extends Dbh {
 		public $i = 0;
 		function getTheUser($usr, $pwd) {
 			$type = array("profesori", "parinti", "elevi");

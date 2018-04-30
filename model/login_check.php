@@ -1,6 +1,6 @@
 <?php
 	//require ....
-	class check {
+	class Check {
 		function __construct() {
 			if (empty($_POST['user']) && empty($_POST['pw'])) {
 				echo "lipseste: user + parola";
@@ -25,7 +25,7 @@
 				}
 			$pwd = $_POST['pw'];
 			require 'get_The_User.php';
-			$useri = new users();
+			$useri = new Users();
 			$test = $useri -> getTheUser($usr, $pwd);
 			if ($test == NULL) {
 				echo "User / parola necunoscute, va rugam folositi functia Sign-up ...";
@@ -34,7 +34,7 @@
 				}
 			$tip = $test[0];
 			$id = $test[1];
-			header ('location: ../controller/bootuser.php?tip='.$tip.'&id='.$id);
+			header ('location: ../controller/boot_user.php?tip='.$tip.'&id='.$id);
 		}
 	}
 	$result = new check();

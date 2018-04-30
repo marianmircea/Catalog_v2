@@ -1,5 +1,5 @@
 <?php
-	class dbh {
+	class Dbh {
 		private $username;
 		private $password;
 		private $dbname;

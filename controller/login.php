@@ -1,5 +1,5 @@
 <?php
-	class login extends viewcontroller {
+	class Login extends Viewcontroller {
 		function __construct () {
 			parent::__construct();
 		}

@@ -1,22 +1,22 @@
 <?php
 	//Main controller - responsible for all controllers ...
 	//require URL.'config/autoloader.php';
-	class bootsite {
+	class Bootsite {
 		function __construct () {
 			if (!isset ($_GET["val"])) {
-				$aff = new index();
+				$aff = new Index();
 				$aff -> index();
 				exit();
 				}
 			if ($_GET["val"] == 1) {
 				require 'controller/login.php';
-				$aff = new login();
+				$aff = new Login();
 				$aff -> index();
 				exit();
 				}
 			if ($_GET["val"] == 2) {
 				require 'controller/sign_up.php';
-				$aff = new signup();
+				$aff = new Signup();
 				$aff -> index();
 				exit();
 				}

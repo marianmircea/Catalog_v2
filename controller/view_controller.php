@@ -1,8 +1,9 @@
 <?php
-	require 'config/view.php';
-	class viewcontroller {
+	//require ('file:///D:/wamp/www/Catalog_v2/config/view.php');
+	require ('config/view.php');
+	class Viewcontroller {
 		function __construct() {
-			$this -> view = new view();
+			$this -> view = new View();
 			
         }
     }
