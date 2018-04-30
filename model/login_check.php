@@ -32,6 +32,7 @@
 				header ('refresh:1; url=../index.php?val=1');
 				exit();
 				}
+			
 			//print_r($test);
 			echo $test[0]."  ".$test[1];
 			//Session::init();
@@ -39,7 +40,6 @@
 			//header ('refresh:1; url=../controllers/logged_in.php');
 		}
 	}
-	
 	$result = new check();
 	
 	

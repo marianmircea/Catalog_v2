@@ -8,7 +8,7 @@
 			$this -> servername = "localhost";
 			$this -> username = "root";
 			$this -> password = "";
-			$this -> dbname = "login_system";
+			$this -> dbname = "catalog";
 			$this -> charset = "utf8mb4";
 			try {
 				$data_source_name = "mysql:host = ".$this->servername.";dbname=".$this->dbname.";charset=".$this->charset;
