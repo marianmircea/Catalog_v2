@@ -5,6 +5,6 @@
 			parent::__construct();
 		}
 		function index() {
-			$this -> View -> render('logged');
+			$this -> view -> render('logged');
 		}
 	}

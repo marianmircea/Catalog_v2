@@ -1,0 +1,1 @@
+pagina pentru parinte

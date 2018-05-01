@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Welcome | Catalog scolar</title>
+	<title>CN Ion Creanga Bistrita</title>
 	<link rel="stylesheet" href="<?php echo URL2; ?>css/main_file.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
